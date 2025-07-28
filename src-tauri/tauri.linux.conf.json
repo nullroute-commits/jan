@@ -1,7 +1,7 @@
 {
   "bundle": {
     "targets": ["deb", "appimage"],
-    "resources": ["resources/pre-install/**/*"],
+    "resources": ["resources/LICENSE", "resources/pre-install/**/*"],
     "externalBin": ["resources/bin/uv"],
     "linux": {
       "appimage": {
