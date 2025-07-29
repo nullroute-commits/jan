@@ -1,0 +1,12 @@
+prompt = """
+You are going to test the Jan application by downloading and chatting with a model (qwen3-0.6B).
+
+Step-by-step instructions:
+1. Given the Jan application is already opened.
+2. In the **bottom-left corner**, click the **Settings** menu item.
+3. Then click Model Providers
+4. Ensure there are Llama.cpp, OpenAI, Anthropic, Cohere, OpenRouter, Mistral, Groq, Gemini, Hugging Face
+If the model responds correctly, return: {"result": True}, otherwise return: {"result": False}.
+
+In all your responses, use only plain ASCII characters. Do NOT use Unicode symbols
+"""
